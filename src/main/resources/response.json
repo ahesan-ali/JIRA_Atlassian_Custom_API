@@ -1,0 +1,870 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 50,
+  "total": 5,
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10004",
+      "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/10004",
+      "key": "SCRUM-5",
+      "fields": {
+        "statuscategorychangedate": "2024-01-30T21:16:14.039+0530",
+        "issuetype": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issuetype/10003",
+          "id": "10003",
+          "description": "Bugs track problems or errors.",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303,
+          "entityId": "7de5bdff-184c-4eb5-8eed-2e39138814e4",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419",
+            "24x24": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=small",
+            "16x16": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+            "32x32": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "customfield_10032": null,
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": "2024-01-30T21:18:12.859+0530",
+        "watches": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/SCRUM-5/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2024-01-30T21:16:13.751+0530",
+        "customfield_10020": [
+          {
+            "id": 1,
+            "name": "jira_testing_sprint",
+            "state": "active",
+            "boardId": 1,
+            "goal": "",
+            "startDate": "2024-01-31T07:14:48.000Z",
+            "endDate": "2024-02-14T07:14:31.000Z"
+          }
+        ],
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10026": null,
+        "customfield_10016": 12.0,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|i0000v:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2024-01-30T21:18:12.899+0530",
+        "status": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://ahsanalinuk.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "summary": "Functional Bug:Unable to Add Items to Shopping Cart",
+        "creator": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/user?accountId=712020%3A2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "accountId": "712020:2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "emailAddress": "ahsanalinuk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png"
+          },
+          "displayName": "Ahsanali nandoliya",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/user?accountId=712020%3A2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "accountId": "712020:2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "emailAddress": "ahsanalinuk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png"
+          },
+          "displayName": "Ahsanali nandoliya",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "customfield_10000": "{}",
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/SCRUM-5/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10003",
+      "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/10003",
+      "key": "SCRUM-4",
+      "fields": {
+        "statuscategorychangedate": "2024-01-30T21:15:17.236+0530",
+        "issuetype": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issuetype/10003",
+          "id": "10003",
+          "description": "Bugs track problems or errors.",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303,
+          "entityId": "7de5bdff-184c-4eb5-8eed-2e39138814e4",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10031": null,
+        "project": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419",
+            "24x24": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=small",
+            "16x16": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+            "32x32": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=medium"
+          }
+        },
+        "customfield_10032": null,
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/SCRUM-4/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2024-01-30T21:15:17.041+0530",
+        "customfield_10020": [
+          {
+            "id": 1,
+            "name": "jira_testing_sprint",
+            "state": "active",
+            "boardId": 1,
+            "goal": "",
+            "startDate": "2024-01-31T07:14:48.000Z",
+            "endDate": "2024-02-14T07:14:31.000Z"
+          }
+        ],
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": 8.0,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|i0000n:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2024-01-30T21:17:44.657+0530",
+        "status": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://ahsanalinuk.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Performance Degradation:Slow Loading Time on Product Listing Page",
+        "creator": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/user?accountId=712020%3A2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "accountId": "712020:2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "emailAddress": "ahsanalinuk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png"
+          },
+          "displayName": "Ahsanali nandoliya",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/user?accountId=712020%3A2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "accountId": "712020:2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "emailAddress": "ahsanalinuk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png"
+          },
+          "displayName": "Ahsanali nandoliya",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10000": "{}",
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/SCRUM-4/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10002",
+      "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/10002",
+      "key": "SCRUM-3",
+      "fields": {
+        "statuscategorychangedate": "2024-01-30T21:14:46.937+0530",
+        "issuetype": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issuetype/10003",
+          "id": "10003",
+          "description": "Bugs track problems or errors.",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303,
+          "entityId": "7de5bdff-184c-4eb5-8eed-2e39138814e4",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10031": null,
+        "project": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419",
+            "24x24": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=small",
+            "16x16": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+            "32x32": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=medium"
+          }
+        },
+        "customfield_10032": null,
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/SCRUM-3/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "lastViewed": "2024-01-30T21:17:35.277+0530",
+        "created": "2024-01-30T21:14:46.689+0530",
+        "customfield_10020": [
+          {
+            "id": 1,
+            "name": "jira_testing_sprint",
+            "state": "active",
+            "boardId": 1,
+            "goal": "",
+            "startDate": "2024-01-31T07:14:48.000Z",
+            "endDate": "2024-02-14T07:14:31.000Z"
+          }
+        ],
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10026": null,
+        "customfield_10016": 3.0,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|i0000f:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2024-01-30T21:17:36.389+0530",
+        "status": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://ahsanalinuk.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "summary": "Data Validation Error:Invalid Input Not Detected in Registration Form",
+        "creator": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/user?accountId=712020%3A2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "accountId": "712020:2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "emailAddress": "ahsanalinuk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png"
+          },
+          "displayName": "Ahsanali nandoliya",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/user?accountId=712020%3A2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "accountId": "712020:2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "emailAddress": "ahsanalinuk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png"
+          },
+          "displayName": "Ahsanali nandoliya",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10000": "{}",
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/SCRUM-3/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10001",
+      "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/10001",
+      "key": "SCRUM-2",
+      "fields": {
+        "statuscategorychangedate": "2024-01-30T21:14:22.163+0530",
+        "issuetype": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issuetype/10003",
+          "id": "10003",
+          "description": "Bugs track problems or errors.",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303,
+          "entityId": "7de5bdff-184c-4eb5-8eed-2e39138814e4",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419",
+            "24x24": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=small",
+            "16x16": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+            "32x32": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "customfield_10032": null,
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": "2024-01-31T17:14:00.477+0530",
+        "watches": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/SCRUM-2/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2024-01-30T21:14:21.973+0530",
+        "customfield_10020": [
+          {
+            "id": 1,
+            "name": "jira_testing_sprint",
+            "state": "active",
+            "boardId": 1,
+            "goal": "",
+            "startDate": "2024-01-31T07:14:48.000Z",
+            "endDate": "2024-02-14T07:14:31.000Z"
+          }
+        ],
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10026": null,
+        "customfield_10016": 7.0,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|i00007:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2024-01-30T21:17:31.876+0530",
+        "status": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://ahsanalinuk.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "summary": "Broken Link in Navigation::404 Error on 'About Us' Page Link",
+        "creator": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/user?accountId=712020%3A2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "accountId": "712020:2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "emailAddress": "ahsanalinuk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png"
+          },
+          "displayName": "Ahsanali nandoliya",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/user?accountId=712020%3A2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "accountId": "712020:2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "emailAddress": "ahsanalinuk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png"
+          },
+          "displayName": "Ahsanali nandoliya",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "customfield_10000": "{}",
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/SCRUM-2/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10000",
+      "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/10000",
+      "key": "SCRUM-1",
+      "fields": {
+        "statuscategorychangedate": "2024-01-30T21:08:50.107+0530",
+        "issuetype": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issuetype/10003",
+          "id": "10003",
+          "description": "Bugs track problems or errors.",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303,
+          "entityId": "7de5bdff-184c-4eb5-8eed-2e39138814e4",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419",
+            "24x24": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=small",
+            "16x16": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+            "32x32": "https://ahsanalinuk.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10419?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "customfield_10032": null,
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/SCRUM-1/watchers",
+          "watchCount": 0,
+          "isWatching": false
+        },
+        "lastViewed": "2024-02-02T16:49:13.940+0530",
+        "created": "2024-01-30T21:08:49.184+0530",
+        "customfield_10020": [
+          {
+            "id": 1,
+            "name": "jira_testing_sprint",
+            "state": "active",
+            "boardId": 1,
+            "goal": "",
+            "startDate": "2024-01-31T07:14:48.000Z",
+            "endDate": "2024-02-14T07:14:31.000Z"
+          }
+        ],
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [
+          "navigation"
+        ],
+        "customfield_10016": 5.0,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|hzzzzz:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2024-01-30T21:08:49.184+0530",
+        "status": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://ahsanalinuk.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://ahsanalinuk.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": "Clicking on the 'About Us' link in the navigation menu leads to a 404 error page.",
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Button Misaligned on Homepage: UI Alignment Issue",
+        "creator": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/user?accountId=712020%3A2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "accountId": "712020:2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "emailAddress": "ahsanalinuk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png"
+          },
+          "displayName": "Ahsanali nandoliya",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/user?accountId=712020%3A2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "accountId": "712020:2c13b46b-5417-46d9-903c-af082e3ae5aa",
+          "emailAddress": "ahsanalinuk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/24de1f1391559da85509f37eafef116e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAN-3.png"
+          },
+          "displayName": "Ahsanali nandoliya",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10000": "{}",
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://ahsanalinuk.atlassian.net/rest/api/2/issue/SCRUM-1/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+#server.port: 8081
+jira-api:
+  token: "YWhzYW5hbGludWtAZ21haWwuY29tOkFUQVRUM3hGZkdGMGpXOG14RUtiNG1RakR1OFlISFdrOGNFbFRaektNemFLeE8zSnU0YWh5SmpWRml5Mnd4T0ZKVTJZeE9wTmVqY2ozZjA3UFR5d3ZMcGdxVjcwUGYzaG1PLWlGai1KQjd4RE9aTFVKbG5KTXpkS282OWhNdEVsR05yaTJublhuQWxnX2pKNFVXWW5MRXZfSl9fbHplal9pN0Q1dHdJaG5FLXd1dlZQOUpFVEdOST02M0E2M0E2MQ"
+  url: "https://ahsanalinuk.atlassian.net/rest/api/2/search?jql=issueType="
